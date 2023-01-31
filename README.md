@@ -6,7 +6,8 @@ If you add the python script to a cron job, it will get automatically updated.
 ## Running
 First fetch the RSS feed and create the markdown file
 ```
-python3 scripts/fetch.py
+cd site
+python3 ../scripts/fetch.py
 ```
 
 Now run jenkyll:
@@ -14,5 +15,5 @@ Now run jenkyll:
 bundle exec jekyll serve
 ```
 
-Browse to [](http://localhost:4000)
+Browse to [http://localhost:4000](http://localhost:4000)
 
