@@ -1,4 +1,4 @@
-# Jenkyll with RSS feed example
+# Jekyll with RSS feed example
 
 This example demonstrates how to use a python script to fetch from an RSS feed and populate a markdown file.
 If you add the python script to a cron job, it will get automatically updated.
@@ -10,7 +10,7 @@ cd site
 python3 ../scripts/fetch.py
 ```
 
-Now run jenkyll:
+Now run jekyll:
 ```
 bundle exec jekyll serve
 ```
